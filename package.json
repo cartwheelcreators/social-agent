@@ -1,0 +1,19 @@
+{
+  "name": "social-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "poll:youtube": "node src/pollYoutube.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-spreadsheet": "^4.1.2",
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
+  }
+}
